@@ -1,0 +1,103 @@
+@media only screen and (max-width:1150px) {
+    .navbar {
+        height: 344px;
+        flex-direction: column;
+        transition: all 0.6s ease-out;
+
+    }
+
+    .box-main {
+        padding: 0;
+        max-width: 87%;
+        flex-direction: column-reverse;
+    }
+    .firstSection{
+        height: 74vh;
+    }
+
+    .secondHalf {
+        width: 70%;
+    }
+    .text-big{
+        text-align: center;
+    }
+    .text-small{
+        text-align: center;
+    }
+
+    .firstHalf {
+        width: 100%;
+    }
+
+    .navlist {
+        flex-direction: column;
+        transition-delay: 0.2s;
+    }
+
+    .rightNav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transition-delay: 0.2s;
+    }
+
+    .section {
+        max-width: 87%;
+        flex-direction: column-reverse;
+        width: 89%;
+    }
+    .buttons{
+        margin:auto;
+    }
+
+    .btn-sm {
+        width: 84px;
+    }
+
+    .burger {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        display: block;
+    }
+
+    .line {
+        width: 30px;
+        background-color: white;
+        height: 4px;
+        margin: 3px 3px;
+    }
+
+    .h-nav {
+        height: 62px;
+    }
+
+    .v-class {
+        opacity: 0;
+    }
+
+    .form {
+        max-width: 87vw;
+    }
+
+    .form-input {
+        font-size: 17px;
+        width: 96%;
+    }
+
+    .secTag {
+        font-size: 30px
+    }
+
+    .secSubTag {
+        font-size: 15px
+    }
+
+    .footCenter {
+        font-size: 13px;
+    }
+
+    .thumbnail {
+        width: 64%;
+    }
+}
